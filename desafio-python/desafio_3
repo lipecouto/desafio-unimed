@@ -1,0 +1,12 @@
+valores = input().split()
+
+# TODO:  Calcule quantidade de litros necessária para realizar a viagem e imprima com TRÊS dígitos após o ponto decimal
+tempo = float(valores[0])
+speed = float(valores[1])
+
+distancia = tempo*speed
+
+media = 12.0
+consumo = (distancia/media)
+
+print(f"{consumo:.3f}")
