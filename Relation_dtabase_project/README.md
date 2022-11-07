@@ -1,4 +1,4 @@
-# Desafio unimed E-Commerce
+# Desafio unimed E-Commerce  e Oficina
 
 ## Explicação do modelo ER
 ##### Philipe Couto
@@ -23,3 +23,15 @@ A entidade de pedidos foi pensada para ser universal podem tanto receber pedidos
 
 ### A entidade Financeiro
 A entidade financeiro, apensar de não ter sido descrita na atividade, me pareceu necessária para melhor exemplificar como os registros de contas a pagar e receber com base nos pedidos, deveriam ser dispostos. 
+
+
+----------------------------------------------------------------
+
+O Modelo ER da Oficiona
+
+### As principais entidades
+O modelo está no geral, nem simples.
+
+A entidade parceiro_mec foi criada para atender aos requisitos do desafio e está ligada com a tabela equipe para que seja possível na OS, selecionar uma equipe que pode conter um ou mais mecânicos.
+
+Eu fiz uma divisão entre serviço e itens separando as entidades para que cada item possa ter seu controle de estoque e cada serviço possa ter um valor relacionado ao tipo de serviço prestado na entidade tabela de preço. A composição dos serviços mais os itens seria o total da OS, também adicionei uma entidade financeiroOS para itenficiar alguns dados relacionados somente ao financeiro. A aplicação retornaria o valor do serviço de acordo com a tabela de preço definida para o serviço.
