@@ -1,11 +1,6 @@
-# dio-live-dynamodb
-Repositório para o live coding do dia 30/09/2021 sobre o Amazon DynamoDB
+# Este readme é referencia do README.md do repositório https://github.com/cassianobrexbit/
 
-### Serviço utilizado
-  - Amazon DynamoDB
-  - Amazon CLI para execução em linha de comando
-
-### Comandos para execução do experimento:
+# Comandos para execução do experimento:
 
 
 - Criar uma tabela
