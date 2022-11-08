@@ -43,3 +43,21 @@ conta.credito = 1000
 print(conta.credito)
 del conta.credito
 print(conta.credito)
+
+print("________________________________________________________________")
+import numpy as  np
+x =  np.array([1,2,3,4])
+y =  np.array([1,2,3,4])
+s = x * y 
+print(s)
+ 
+
+#print(x[[False, True, False, False]])
+
+print("________________________________________________________________")
+
+y = range(10,1,-1)
+for n in y:
+  print(n)
+
+print(5 !=6 )
