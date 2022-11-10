@@ -3,3 +3,4 @@
 
 Os videos do projeto e a documentação não deixou claro (para mim) quais eram os entregaveis, então eu escrevi o notebook conforme o modelo de exemplo, o repositório de apoi do professor estava vazio logo não houve um material de apoio
 
+Também não há no github da DIO, um repositório para o projeto.
